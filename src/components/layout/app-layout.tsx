@@ -35,7 +35,7 @@ export function AppLayout({ children }: { children: React.ReactNode }) {
             <div className="flex items-center justify-between p-4 border-b">
                 <Link href="/" className="flex items-center gap-2">
                     <Waves className="h-8 w-8 text-primary" />
-                    <span className="text-xl font-bold">Naam Japper</span>
+                    <span className="text-xl font-bold">Naam Jap</span>
                 </Link>
             </div>
             <nav className="flex-1 space-y-2 p-4">
@@ -85,7 +85,7 @@ export function AppLayout({ children }: { children: React.ReactNode }) {
                 <div className="flex-1">
                   <Link href="/" className="flex items-center gap-2">
                       <Waves className="h-6 w-6 text-primary" />
-                      <span className="text-lg font-bold">Naam Japper</span>
+                      <span className="text-lg font-bold">Naam Jap</span>
                   </Link>
                 </div>
                 <ModeToggle />

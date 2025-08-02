@@ -24,7 +24,7 @@ export function Onboarding() {
                 <div className="mx-auto bg-primary/10 p-4 rounded-full w-fit mb-4">
                     <Waves className="w-10 h-10 text-primary"/>
                 </div>
-                <CardTitle className="text-3xl font-bold">Welcome to Naam Japper</CardTitle>
+                <CardTitle className="text-3xl font-bold">Welcome to Naam Jap</CardTitle>
                 <CardDescription className="text-muted-foreground pt-2">
                     Your personal companion for spiritual practice.
                     Please start by telling us your name.
