@@ -15,6 +15,7 @@ import {
   Sheet,
   SheetContent,
   SheetTrigger,
+  SheetTitle,
 } from "@/components/ui/sheet"
 import { Button } from "@/components/ui/button";
 import { ModeToggle } from "@/components/settings/mode-toggle";
@@ -77,6 +78,7 @@ export function AppLayout({ children }: { children: React.ReactNode }) {
                     </Button>
                     </SheetTrigger>
                     <SheetContent side="left" className="p-0 w-[280px]">
+                        <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
                         <NavContent />
                     </SheetContent>
                 </Sheet>
